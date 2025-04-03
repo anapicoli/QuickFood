@@ -1,1 +1,1 @@
-# 🛑🚧 QUuickFood em desenvolvimento👷🏻‍♀️ 🚧🛑
+# 🛑🚧 QuickFood em desenvolvimento👷🏻‍♀️ 🚧🛑
