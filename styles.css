@@ -1,0 +1,15 @@
+@import url(global.css);
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-White);
+}
+
+.logo{
+    padding: 49px 1199px 49px 100px;
+}
+
+/* Fim do Header */
