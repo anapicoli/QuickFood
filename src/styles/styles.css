@@ -109,7 +109,6 @@ nav ul a{
 .offers-title h2{
     font-size: 48px;
     margin-bottom: 7px;
-    font-weight: bold;
 }
 
 .offers-title p{
@@ -136,7 +135,6 @@ nav ul a{
     font-size: 28px;
     margin-bottom: 8px;
     margin-top: 40px;
-    font-weight: semiBold;
 
 }
 
@@ -205,7 +203,6 @@ nav ul a{
 
 .special-dishes-images h3{
     font-size: 28px;
-    font-weight: bold;
     margin-top: 16px;
     margin-bottom: 16px;
     text-align: center;
@@ -217,6 +214,7 @@ nav ul a{
     width: 279px;
     margin-bottom: 16px;
     text-align: center;
+    line-height: 1.5;
 }
 
 .buy-button{
@@ -229,3 +227,58 @@ nav ul a{
     color: var(--color-White);
 }
 /* Fim do Special Dishes */
+
+/* Clients */
+.clients{
+    background-color: var(--color-bgGrey);
+    padding: 100px 0px;
+    margin-top: 61px;
+}
+
+.clients-title{
+    text-align: center;
+}
+
+.clients-title h2{
+    font-size: 48px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.clients-title p{
+    font-size: 18px;
+    color: var(--color-Grey);
+}
+
+.clients-containers{
+    display: flex;
+    gap: 21px;
+    justify-content: center;
+}
+
+.feedbacks{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: var(--color-White);
+}
+
+.feedbacks h3{
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.feedbacks p{
+    width: 319px;
+    font-size: 18px;
+    color: var(--color-Grey);
+    text-align: center;
+    line-height: 1.5;
+}
+/* Fim do Clients */
