@@ -9,29 +9,93 @@
     <meta property="og:Description" content="Projeto feito a partir de um protótipo do Figma">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuickFood</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
 </head>
 <body>
     <!-- Header -->
-     <header>
+    <header>
         <div class="logo">
-            <img src="./src/assets/images/header/logo.svg" alt="Logo QuickFood" title="Logo QuickFood">
+            <img src="./src/assets/images/header/logo.svg" alt="QuickFood logo" title="Logo">
         </div>
 
-        <nav class="header">
+        <nav class="nav-header">
             <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>Products</li></a>
-                <a href="#"><li>Contact Us</li></a>
-                <a href="#"><li>About</li></a>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">About</a></li>
             </ul>
-        </nav>
-
+        </nav>   
+        
         <div class="buttons">
-            <img src="./src/assets/images/header/search.svg" alt="Search Icon" title="Search Icon">
-            <img src="./src/assets/images/header/cart.svg" alt="Shopping Cart Icon" title="Shopping Cart Icon">
-            <button class="LoginButton">Login</button>
+            <img src="./src/assets/images/header/searchIcon.svg" alt="Search icon" title="icon">
+            <img src="./src/assets/images/header/shoppingcarIcon.svg" alt="Shopping car icon" title="icon">
+            <button class="login-button">Login</button>
         </div>
     </header>
-    <!-- Fim Header -->
+    <!-- Fim do header -->
+
+    <!-- Main -->
+    <section>
+        <div class="Main">
+
+            <div class="main-info">
+                <h1>We deliver <span class="span">Healthy & Delicious</span> Food</h1>
+                <p>Order online or book a table.We are always ready to fulfill your demand.You would get fastest delivery you could ever imagine.Keep in touch with us to take your delicious foods.</p>
+                <button class="Order-button">Order Now</button>
+                <button class="Explore-button">Explore Products</button>
+            </div>
+        
+            <div>
+                <img class="salad" src="./src/assets/images/main/salad.svg" alt="imagem ilustrativa de um pote de salada" title="salada">
+            </div>
+        </div>
+    </section>
+    <!-- Fim do Main -->
+
+    <!-- Offers -->
+    <section class="offers">        
+        <div class="offers-title">
+            <h2>Why Choose Us?</h2>
+            <p>We offer delicious and healthy foods, quick payment and we deliver fast.</p>
+        </div>
+
+        <div class="offers-containers">
+            <div class="offers-ilustration">
+                <img src="./src/assets/images/offers/shoppingGirl.svg" alt="ilustration of a girl shopping online" title="shopping girl">
+                <h3>Best Offer</h3>
+                <p>We offer you healthy & delicious food with good hygiene.</p>
+            </div>
+
+            <div class="offers-ilustration">
+                <img src="./src/assets/images/offers/payingBoy.svg" alt="ilustration of a boy paying something online" title="paying boy">
+                <h3>Easy Payment</h3>
+                <p>Payment is easy and quick to order your foods.</p>
+            </div>
+
+            <div class="offers-ilustration">
+                <img src="./src/assets/images/offers/delivery.svg" alt="ilustration of a person driving a motocicle to delivery some packs" title="delivery">
+                <h3>Fastest delivery</h3>
+                <p>Our delivery is super active and run delivery inter state</p>
+            </div>
+        </div>
+        
+        <div class="offers-info">
+            <div class="numbers">
+                <h2>40+</h2>
+                <p>Foods Available</p>
+            </div>
+            <div class="numbers">
+                <h2>600+</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div class="numbers">
+                <h2>5k+</h2>
+                <p>Online Orders/p>
+            </div>
+        </div>
+    </section>
+    <!-- Fim do Offers -->
+ 
 </body>
 </html>
