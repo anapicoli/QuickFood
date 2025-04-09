@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/') format('ttf');         
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+:root{
+    --color-Green: #00A000;
+    --color-Black: #000001;
+    --color-Grey: #999999;
+    --color-White: #FFFFFF;
+    --color-bgGrey: #FAFAFA;
+
+    --font: "Gilroy";
+}

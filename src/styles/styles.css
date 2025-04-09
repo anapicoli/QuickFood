@@ -1,0 +1,148 @@
+@import url(global.css);
+
+/* Header */
+header{
+    display: flex;
+    margin: 40px 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    gap: 24px;
+}
+
+.login-button{
+    border: 1px solid var(--color-Green) ;
+    border-radius: 10px;
+    color:  var(--color-Green);
+    width: 105px;
+    height: 51px;
+    background-color: var(--color-White);
+}
+
+.nav-header{
+    color: var(--color-Grey);
+    text-decoration: none;
+}
+
+.active{
+    color: var(--color-Green);
+}
+/* Fim do Header */
+
+/* Main */
+.Main{
+    display: flex;
+    margin-bottom: 12px ;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info{
+    margin: 40px 100px;
+    width: 563px;   
+}
+
+.main-info h1{
+    font-size: 60px;
+}
+
+.main-info p{
+    padding: 32px 0px;
+    color: var(--color-Grey);
+    width: 503px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.span{
+    color: var(--color-Green);
+    margin-bottom: 32px;
+}
+
+.salad{
+    display: flex;
+    width: 651px;
+    height: 494px;
+}
+
+.Order-button{
+    background-color: var(--color-Green);
+    border-radius: 10px;
+    color: var(--color-White);
+    border: none;
+    padding: 16px 32px;
+    margin-right: 24px;
+}
+
+.Explore-button{
+    color: var(--color-Green);
+    border-radius: 10px;
+    background-color: var(--color-White);
+    border: 1px solid var(--color-Green);
+    padding: 16px 32px;
+}
+/* Fim do Main */
+
+/* Offers */
+.offers{
+    background-color: var(--color-bgGrey);
+    padding: 100px 0px;
+    margin-top: 102px;
+}
+
+.offers-title{
+    text-align: center;
+}
+
+.offers-title h2{
+    font-size: 48px;
+    margin-bottom: 7px;
+}
+
+.offers-title p{
+    font-size: 18px;
+    color: var(--color-Grey)
+}
+
+.offers-containers{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.offers-ilustration{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 68.5px;
+}
+
+.offers-ilustration h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    margin-top: 40px;
+
+}
+
+.offers-ilustration p{
+    font-size: 18px;
+    color: var(--color-Grey);
+    text-align: center;
+    width: 275.3px;
+}
+ 
+/* Fim do Offers */
