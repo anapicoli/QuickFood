@@ -144,5 +144,30 @@ nav ul a{
     text-align: center;
     width: 275.3px;
 }
+
+.offers-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.numbers{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.numbers h2{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.numbers p{
+    font-size: 18px;
+    color: var(--color-Grey);
+}
  
 /* Fim do Offers */
