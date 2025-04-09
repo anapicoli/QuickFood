@@ -41,7 +41,7 @@ nav ul a{
 /* Fim do Header */
 
 /* Main */
-.Main{
+.main-container{
     display: flex;
     margin-bottom: 12px ;
     margin-top: 100px;
@@ -282,3 +282,42 @@ nav ul a{
     line-height: 1.5;
 }
 /* Fim do Clients */
+
+/* About */
+.about{
+    display: flex;
+    padding: 100px 0px;
+    margin-top: 60px;
+    justify-content: center;
+    gap: 82px;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    width: 558px;
+}
+
+.about-info h3{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.about-info p{
+    font-size: 18px;
+    margin-bottom: 24px;
+    width: 558px;
+    line-height: 1.5;
+    color: var(--color-Grey);
+}
+
+.learn-button{
+    width: 157px;
+    height: 53px;
+    padding: 16px 0px;
+    background-color: var(--color-Green);
+    color: var(--color-White);
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* Fim do About */
