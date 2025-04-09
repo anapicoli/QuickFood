@@ -321,3 +321,38 @@ nav ul a{
     font-size: 18px;
 }
 /* Fim do About */
+
+/* Newsteller */
+.newsteller{
+    padding: 100px 0px;
+    margin-top: 60px;
+    background-color: var(--color-bgGrey);
+}
+
+.newsteller-container{
+    margin: 100px 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsteller-title{
+    margin-bottom: 89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newsteller-title h2{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.newsteller-title p{
+    color: var(--color-Grey);
+    font-size: 18px;
+}
+/* Fim do Newsteller */
