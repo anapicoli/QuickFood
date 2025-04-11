@@ -31,11 +31,15 @@ nav ul a{
 }
 
 .nav-header{
-    color: var(--color-Grey);
     text-decoration: none;
 }
 
-.active{
+.nav-header a{
+
+    color: var(--color-Grey);
+}
+
+.active a{
     color: var(--color-Green);
 }
 /* Fim do Header */
@@ -354,5 +358,34 @@ nav ul a{
 .newsteller-title p{
     color: var(--color-Grey);
     font-size: 18px;
+}
+
+.newsteller-input{
+    display: flex;
+    align-items: center;
+}
+
+.newsteller-input input{
+    padding: 24px 24px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid var(--color-LGrey);
+    border-right: none;
+    background-color: var(--color-White);
+    width: 718px;
+}
+
+.newsteller-input button{
+    border-radius: 8px;
+    border: none;
+    color: var(--color-White);
+    background-color: var(--color-Green);
+    padding: 16px 32px;
+}
+
+.newsteller-button{
+    padding: 8px;
+    border: 1px solid var(--color-Grey);
+    border-radius: 0px 8px 8px 0px;
+    border-left: none;
 }
 /* Fim do Newsteller */
