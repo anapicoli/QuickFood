@@ -389,3 +389,42 @@ nav ul a{
     border-left: none;
 }
 /* Fim do Newsteller */
+
+/* Footer */
+.footer{
+    padding: 100px 0px;
+    margin-top: 60px;
+    background-color: var(--color-Green);
+}
+
+.footer-container-logo{
+    color: var(--color-White);
+    display: flex;
+    padding: 100px;
+    gap: 40px;
+}
+
+.footer-social-icons{
+    align-items: center;
+    padding-top: 24px;
+}
+
+.footer-info{
+    display: flex;
+    line-height: 2.4;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.company{
+    padding-left: 100px;
+    flex-direction: column;
+    width: 281px;
+}
+
+.help{
+    flex-direction: column;
+    width: 281px;
+}
+/* Fim do Footer */
